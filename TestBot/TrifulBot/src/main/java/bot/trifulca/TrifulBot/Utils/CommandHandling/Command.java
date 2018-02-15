@@ -21,6 +21,14 @@ public class Command {
 		commandArgs = Arrays.asList(preArgs);
 	}
 	
+	public String getCommandType(){
+		return commandType;
+	}
+	
+	public List<String> getCommandArgs(){
+		return commandArgs;
+	}
+	
 	public static Command buildCommand(String message) {
 		return new Command(message);
 	}
