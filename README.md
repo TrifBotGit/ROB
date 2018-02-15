@@ -1,3 +1,3 @@
 # TestBot
 
-Simple discord bot for game realated functions.
+Simple discord bot for game related functions.
