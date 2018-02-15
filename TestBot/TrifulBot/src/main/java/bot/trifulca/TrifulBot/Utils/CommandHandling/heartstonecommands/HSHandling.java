@@ -43,6 +43,13 @@ public class HSHandling {
 						"Cost: " + card.getCost() + System.lineSeparator() +
 						"Description: " + card.getDescription().replace("<b>", "").replace("</b>", "");
 				break;
+			
+			case "Weapon":
+				break;
+				
+			case "Hero":
+				break;
+				
 			default:
 				break;
 			}
@@ -59,7 +66,6 @@ public class HSHandling {
     			.asJson();
 		
 		HSCard card = null;
-		
 		JSONObject cardJson = response.getBody().getObject();
 		if(validateCard(cardJson)){
 			Gson gson = new Gson();
