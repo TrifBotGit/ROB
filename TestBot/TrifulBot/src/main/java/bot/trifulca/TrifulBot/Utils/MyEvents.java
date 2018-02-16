@@ -9,10 +9,10 @@ public class MyEvents {
 	@EventSubscriber
     public void onMessageReceived(MessageReceivedEvent event){
         if(event.getMessage().getContent().startsWith(BotUtils.BOT_PREFIX)&&!event.getAuthor().isBot()){
-        	if(event.getMessage().getContent().startsWith("!game")){
+        	if(event.getMessage().getContent().startsWith("!MH")){
         		gameCommandReceived(event);
         	}else{
-        		musicCommandReceived(event);
+        		BotUtils.sendMessage(event.getChannel(), "Not a valid command");
         	}
         } 	
     }

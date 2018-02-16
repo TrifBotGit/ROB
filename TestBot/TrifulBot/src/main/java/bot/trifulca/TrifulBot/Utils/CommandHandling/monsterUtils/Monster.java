@@ -74,8 +74,39 @@ public class Monster {
 	this.weaknessSign = weaknessSign;
 	}
 	
+	public String printElements() {
+		String result = "";
+		for (String string : element) {
+			result += " " + string;
+		}
+		return result;
+	}
+	
+	public String printAilments() {
+		String result = "";
+		for (String string : ailments) {
+			result += " " + string;
+		}
+		return result;
+	}
+	
+	public String printWeakness() {
+		String result = "";
+		for (String string : weakness) {
+			result += " " + string;
+		}
+		return result;
+	}
+	
 	public String toString(){
-		return getName();
+		String response = getName() + System.lineSeparator() + 
+						  getSpecie() + System.lineSeparator() + 
+						  "Elementos:" + printElements() + System.lineSeparator() +
+						  "Estados alterados:" + printAilments() + System.lineSeparator() +
+						  "Debilidades:" + printWeakness() + System.lineSeparator() +
+						  "Signo de debilidad: " + getWeaknessSign();
+		return response;
+							
 	}
 	
 }

@@ -1,19 +1,14 @@
 package bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Arrays;
 import java.util.List;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonIOException;
-import com.google.gson.JsonSyntaxException;
-
+import bot.trifulca.TrifulBot.Controller;
 import bot.trifulca.TrifulBot.Utils.CommandHandling.Command;
 
 public class MonsterHandling {
 	
-	public static List<Monster> monsterList = null;
+	//public static List<Monster> monsterList = null;
 	
 	public String commandHandler(Command command){
 		
@@ -26,7 +21,7 @@ public class MonsterHandling {
 				response = buildMonsterResponse(mhPetition);
 				break;
 			default:
-				response = "Not a valid command or unimplemented feature";
+				return "Not a valid command or unimplemented feature";
 		}
 		return response;
 		
@@ -34,7 +29,8 @@ public class MonsterHandling {
 	
 	public String buildMonsterResponse(MHCommand command){
 		
-		for (Monster monster : monsterList) {
+		List<Monster> list = Controller.getList();
+		for (Monster monster : list) {
 			if(command.getArgument().equals(monster.getName())){
 				return monster.toString();
 			}
@@ -44,13 +40,17 @@ public class MonsterHandling {
 		
 	}
 	
-	public static List<Monster> loadMonsterList() throws JsonSyntaxException, JsonIOException, FileNotFoundException{
+	public static void printMonsters() {
+		System.out.println(System.getProperty("user.dir"));
+	}
+	
+	/*public static List<Monster> loadMonsterList() throws JsonSyntaxException, JsonIOException, FileNotFoundException{
 		
 		Gson gson = new Gson();
 		Monster[] monsters = gson.fromJson(new FileReader("monsters3u.json"), Monster[].class);
 		List<Monster> monsterList = Arrays.asList(monsters);
 		return monsterList;
 		
-	}
+	}*/
 
 }
