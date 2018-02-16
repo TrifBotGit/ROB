@@ -1,12 +1,19 @@
 package bot.trifulca.TrifulBot;
 
+import java.io.FileNotFoundException;
+
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonSyntaxException;
+
 import bot.trifulca.TrifulBot.Utils.BotUtils;
 import bot.trifulca.TrifulBot.Utils.MyEvents;
+import bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils.MonsterHandling;
 import sx.blah.discord.api.IDiscordClient;
 
 public class Controller 
 {
-    public static void main( String[] args )
+	
+    public static void main( String[] args ) throws JsonSyntaxException, JsonIOException, FileNotFoundException
     {
     	if(args.length != 1){
             System.out.println("Please enter the bots token as the first argument e.g java -jar thisjar.jar tokenhere");
@@ -32,6 +39,8 @@ public class Controller
 
         // Only login after all events are registered otherwise some may be missed.
         cli.login();
+        
+        MonsterHandling.loadMonsterList();
 
      
     }

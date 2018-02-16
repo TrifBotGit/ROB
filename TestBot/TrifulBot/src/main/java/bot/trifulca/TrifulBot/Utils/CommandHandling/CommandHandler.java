@@ -1,5 +1,7 @@
 package bot.trifulca.TrifulBot.Utils.CommandHandling;
 
+import bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils.MonsterHandling;
+
 public class CommandHandler {
 	
 	public static String handleCommand(String message) {
@@ -9,7 +11,8 @@ public class CommandHandler {
 		
 		switch (command.getCommandType()) {
 		case "!MH":
-			
+			MonsterHandling mhHandler = new MonsterHandling();
+			response = mhHandler.commandHandler(command);
 			break;
 
 		default:

@@ -1,0 +1,402 @@
+[
+{
+	"Name": "Gran Jaggi",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Arzuros",
+	"Specie": "Bestia de colmillos",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Fuego(Parte delantera)", "Hielo(Parte trasera)"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Qurupeco",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Reduccion de defensa", "Sueño(Rango G)"],
+	"Weakness": ["Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Barroth",
+	"Specie": "Wyvern bruto",
+	"Element": ["Agua"],
+	"Ailments": ["Lodo", "Plaga de agua"],
+	"Weakness": ["Agua(Con lodo)", "Fuego(Sin lodo)", "Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Ludroth Real",
+	"Specie": "Leviathan",
+	"Element": ["Agua"],
+	"Ailments": ["Plaga de agua"],
+	"Weakness": ["Fuego", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Wroggi Magnificente",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Ninguno"],
+	"Ailments": ["Veneno"],
+	"Weakness": ["Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Gobul",
+	"Specie": "Leviathan",
+	"Element": ["Ninguno"],
+	"Ailments": ["Paralisis", "Aturdimiento"],
+	"Weakness": ["Trueno", "Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Lagombi",
+	"Specie": "Bestia de colmillos",
+	"Element": ["Hielo"],
+	"Ailments": ["Plaga de hielo", "Muñeco de nieve"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Gran Baggi",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Ninguno"],
+	"Ailments": ["Sueño"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Lagiacrus",
+	"Specie": "Leviathan",
+	"Element": ["Trueno", "Agua"],
+	"Ailments": ["Paralisis", "Plaga de agua"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Rathian",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno"],
+	"Weakness": ["Dragon", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Gigginox",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Veneno"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Duramboros",
+	"Specie": "Wyvern bruto",
+	"Element": ["Ninguno"],
+	"Ailments": ["Aturdimiento"],
+	"Weakness": ["Fuego", "Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Nibelsnarf",
+	"Specie": "Leviathan",
+	"Element": ["Ninguno"],
+	"Ailments": ["Plaga de agua"],
+	"Weakness": ["Hielo", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Volvidon",
+	"Specie": "Bestia de colmillos",
+	"Element": ["Ninguno"],
+	"Ailments": ["Paralisis", "Hedor"],
+	"Weakness": ["Agua"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Rathalos",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno"],
+	"Weakness": ["Dragon", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Barioth",
+	"Specie": "Wyvern volador",
+	"Element": ["Hielo"],
+	"Ailments": ["Plaga de hielo", "Muñeco de nieve"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Diablos",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Hielo", "Agua"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Uragaan",
+	"Specie": "Wyvern bruto",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Sueño"],
+	"Weakness": ["Agua", "Dragon"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Agnaktor",
+	"Specie": "Leviathan",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego"],
+	"Weakness": ["Agua(Con lava)", "Dragon(Sin lava"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Ceadeus",
+	"Specie": "Dragon anciano",
+	"Element": ["Agua"],
+	"Ailments": ["Plaga de agua", "Plaga de dragon"],
+	"Weakness": ["Dragon", "Trueno"],
+	"Weakness Sign": "Ninguno"
+},
+{
+	"Name": "Ludroth Purpureo",
+	"Specie": "Leviathan",
+	"Element": ["Ninguno"],
+	"Ailments": ["Veneno"],
+	"Weakness": ["Fuego", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Qurupeco carmesi",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Trueno"],
+	"Ailments": ["Plaga de trueno", "Aturdimiento"],
+	"Weakness": ["Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Rathian Rosa",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno"],
+	"Weakness": ["Dragon", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Plesioth",
+	"Specie": "Wyvern piscine",
+	"Element": ["Agua"],
+	"Ailments": ["Sueño", "Plaga de agua"],
+	"Weakness": ["Trueno", "Fuego"],
+	"Weakness Sign": "Cojera y Aleta plegada"
+},
+{
+	"Name": "Barroth Esmeralda",
+	"Specie": "Wyvern bruto",
+	"Element": ["Hielo"],
+	"Ailments": ["Plaga de hielo", "Muñeco de nieve"],
+	"Weakness": ["Fuego(Con nieve)", "Trueno(Sin nieve)"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Gigginox Aterrador",
+	"Specie": "Wyvern volador",
+	"Element": ["Trueno"],
+	"Ailments": ["Paralisis", "Plaga de trueno"],
+	"Weakness": ["Agua"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Jhen Mohran",
+	"Specie": "Dragon anciano",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Dragon", "Hielo"],
+	"Weakness Sign": "Ninguno"
+},
+{
+	"Name": "Brachydios",
+	"Specie": "Wyvern bruto",
+	"Element": ["Ninguno"],
+	"Ailments": ["Baba"],
+	"Weakness": ["Agua", "Hielo", "Veneno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Zinogre",
+	"Specie": "Wyvern de colmillos",
+	"Element": ["Trueno"],
+	"Ailments": ["Plaga de trueno"],
+	"Weakness": ["Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Rathalos Celeste",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno", "Aturdimiento"],
+	"Weakness": ["Dragon", "Hielo"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Barioth Arenoso",
+	"Specie": "Wyvern pajaro",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Hielo", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Nargacuga",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Trueno", "Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Diablos Negra",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Hielo"],
+	"Weakness Sign": "Cojera o enfado al golpear"
+},
+{
+	"Name": "Agnaktor Glacial",
+	"Specie": "Leviathan",
+	"Element": ["Hielo", "Agua"],
+	"Ailments": ["Plaga de hielo", "Plaga de agua"],
+	"Weakness": ["Fuego(Con hielo)", "Dragon(Sin hielo)"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Uragaan Acerado",
+	"Specie": "Wyvern bruto",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Hedor"],
+	"Weakness": ["Agua", "Dragon"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Lagiacrus Marmoreo",
+	"Specie": "Leviathan",
+	"Element": ["Trueno", "Agua"],
+	"Ailments": ["Plaga de trueno", "Plaga de agua"],
+	"Weakness": ["Fuego", "Dragon"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Deviljho",
+	"Specie": "Wyvern bruto",
+	"Element": ["Dragon"],
+	"Ailments": ["Plaga de dragon", "Reduccion de defensa", "Plaga de hielo", "Plaga de fuego", "Plaga de agua"],
+	"Weakness": ["Trueno", "Dragon"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Alatreon",
+	"Specie": "Dragon anciano",
+	"Element": ["Dragon", "Fuego", "Trueno", "Hielo"],
+	"Ailments": ["Plaga de dragon", "Plaga de fuego", "Plaga de hielo", "Plaga de trueno", "Muñeco de nieve"],
+	"Weakness": ["Dragon(Volando)", "Fuego(Volando)", "Hielo(Posado)", "Agua(Posado)"],
+	"Weakness Sign": "Ninguno"
+},
+{
+	"Name": "Duramboros Herrumbroso",
+	"Specie": "Wyvern bruto",
+	"Element": ["Ninguno"],
+	"Ailments": ["Lodo"],
+	"Weakness": ["Hielo", "Agua"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Lagiacrus del Abismo",
+	"Specie": "Leviathan",
+	"Element": ["Trueno", "Agua"],
+	"Ailments": ["Plaga de trueno", "Plaga de agua"],
+	"Weakness": ["Dragon", "Fuego"],
+	"Weakness Sign": "Cojera(Poco problable)"
+},
+{
+	"Name": "Nargacuga Verdoso",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Aturdimiento"],
+	"Weakness": ["Trueno", "Fuego"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Nargacuga Lunar",
+	"Specie": "Wyvern volador",
+	"Element": ["Ninguno"],
+	"Ailments": ["Veneno"],
+	"Weakness": ["Hielo", "Dragon"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Plesioth Verde",
+	"Specie": "Wyvern piscine",
+	"Element": ["Agua"],
+	"Ailments": ["Sueño", "Plaga de agua"],
+	"Weakness": ["Trueno", "Fuego"],
+	"Weakness Sign": "Cojera y aleta plegada"
+},
+{
+	"Name": "Jhen Mohran Sagrado",
+	"Specie": "Dragon anciano",
+	"Element": ["Ninguno"],
+	"Ailments": ["Ninguno"],
+	"Weakness": ["Fuego"],
+	"Weakness Sign": "Ninguno"
+},
+{
+	"Name": "Ceadeus Barba Dorada",
+	"Specie": "Dragon anciano",
+	"Element": ["Agua", "Dragon"],
+	"Ailments": ["Plaga de agua", "Plaga de dragon"],
+	"Weakness": ["Dragon", "Trueno"],
+	"Weakness Sign": "Ninguno"
+},
+{
+	"Name": "Rathian Dorada",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno"],
+	"Weakness": ["Agua", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Rathalos Plateado",
+	"Specie": "Wyvern volador",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego", "Veneno", "Aturdimiento"],
+	"Weakness": ["Agua", "Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Zinogre Estigio",
+	"Specie": "Wyvern de colmillos",
+	"Element": ["Dragon"],
+	"Ailments": ["Plaga de dragon"],
+	"Weakness": ["Trueno"],
+	"Weakness Sign": "Cojera"
+},
+{
+	"Name": "Miralis Funesto",
+	"Specie": "Dragon anciano",
+	"Element": ["Fuego"],
+	"Ailments": ["Plaga de fuego"],
+	"Weakness": ["Dragon", "Hielo(Modo armadura)"],
+	"Weakness Sign": "Modo armadura"
+}
+]
