@@ -5,7 +5,8 @@
 	"Element": ["Ninguno"],
 	"Ailments": ["Ninguno"],
 	"Weakness": ["Fuego"],
-	"Weakness Sign": "Cojera"
+	"Weakness Sign": "Cojera",
+	"Tips": "Es un matao"
 },
 {
 	"Name": "Arzuros",
