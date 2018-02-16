@@ -8,7 +8,7 @@ public class CommandHandler {
 		String response = "";
 		
 		switch (command.getCommandType()) {
-		case "!HS":
+		case "!MH":
 			
 			break;
 

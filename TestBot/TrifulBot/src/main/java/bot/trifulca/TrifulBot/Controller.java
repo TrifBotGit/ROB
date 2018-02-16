@@ -2,7 +2,6 @@ package bot.trifulca.TrifulBot;
 
 import bot.trifulca.TrifulBot.Utils.BotUtils;
 import bot.trifulca.TrifulBot.Utils.MyEvents;
-import bot.trifulca.TrifulBot.Utils.CommandHandling.lolcommands.LeagueHandling;
 import sx.blah.discord.api.IDiscordClient;
 
 public class Controller 
@@ -33,8 +32,6 @@ public class Controller
 
         // Only login after all events are registered otherwise some may be missed.
         cli.login();
-        
-        LeagueHandling.loadChampions();
 
      
     }
