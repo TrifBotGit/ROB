@@ -76,7 +76,7 @@
 	"Specie": "Leviathan",
 	"Element": ["Trueno", "Agua"],
 	"Ailments": ["Paralisis", "Plaga de agua"],
-	"Weakness": ["Fuego"],
+	"Weakness": ["<:firemh:415159307345068052>"],
 	"Weakness Sign": "Cojera"
 },
 {

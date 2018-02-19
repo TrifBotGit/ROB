@@ -1,0 +1,706 @@
+[{
+	"name": "Rango Bajo",
+	"maps": [
+		{
+			"name": "Isla Desierta",
+			"zones": [
+				{
+					"name": "Campamento",
+					"resources": [
+						{
+							"name": "Pesca",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Plantas",
+							"quantity": 2
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 2
+						},
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 2
+						},
+						{
+							"name": "Bayas",
+							"quantity": 2
+						},
+						{
+							"name": "Miel",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 4
+						},
+						{
+							"name": "Miel",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 11
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 2
+						},
+						{
+							"name": "Piedra de afilar",
+							"quantity": 1
+						},
+						{
+							"name": "Area Secreta",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Huevo",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 3
+						},
+						{
+							"name": "Boñiga",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 10",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Huesos",
+							"quantity": 4
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						},
+						{
+							"name": "Cebo",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 11",
+					"resources": [
+						{
+							"name": "Huesos",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 12",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bosque Inundado",
+			"zones": [
+				{
+					"name": "Campamento",
+					"resources": [
+						{
+							"name": "Pesca",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 2
+						},
+						{
+							"name": "Telaraña",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 3
+						},
+						{
+							"name": "Cebo",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Plantas",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 2
+						},
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 4
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Bayas",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 4
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 10",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tundra",
+			"zones": [
+				{
+					"name": "Campamento",
+					"resources": [
+						{
+							"name": "Pesca",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 1
+						},
+						{
+							"name": "Miel",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						},
+						{
+							"name": "Zona Secreta",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Piedra de afilar",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Piedra de afilar",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Cascara",
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Llanos Arenosos",
+			"zones": [
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Huesos",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 6
+						},
+						{
+							"name": "Setas",
+							"quantity": 4
+						},
+						{
+							"name": "Zona Secreta",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						},
+						{
+							"name": "Huevo",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 10",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 11",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 4
+						}
+					]
+				}
+			]
+		}
+	]
+}]
