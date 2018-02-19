@@ -10,6 +10,8 @@ Possible petitions: monster, weak, elements, ailments, specie and weaksign.
 
 Example command: !MH monster Lagiacrus
 
+Language response: Spanish
+
 Chat Response:  
   Lagiacrus  
   Especie: Leviathan  
