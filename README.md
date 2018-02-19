@@ -1,4 +1,4 @@
-# TestBot
+# R.O.B Discord Bot
 
 Simple discord bot for game related functions.
 
