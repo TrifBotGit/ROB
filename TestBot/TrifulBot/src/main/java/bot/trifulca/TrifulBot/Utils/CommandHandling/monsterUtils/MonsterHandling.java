@@ -16,41 +16,91 @@ public class MonsterHandling {
 		String[] arguments = Arrays.copyOfRange(command.getCommandArgs(), 1, command.getCommandArgs().length);
 		MHCommand mhPetition = new MHCommand(petition, arguments);
 		String response = "";
-		switch(mhPetition.getPetition()){
-			case "monster":
+		int aux = 0;
+		String[] existingCommands = {"monster", "weak", "elements", "ailments", "specie", "weaksign"};
+		for (String string : existingCommands) {
+			if(mhPetition.getPetition().equals(string)){
 				response = buildMonsterResponse(mhPetition);
-				break;
-			default:
-				return "Not a valid command or unimplemented feature";
+				aux = 1;
+			}
 		}
-		return response;
 		
+		if(aux==1){
+			return response;
+		}else{
+			return "Not valid command or unimplemented feature";
+		}
 	}
 	
 	public String buildMonsterResponse(MHCommand command){
 		
 		List<Monster> list = Controller.getList();
-		for (Monster monster : list) {
-			if(command.getArgument().equals(monster.getName())){
-				return monster.toString();
-			}
+		int aux = 0;
+		String response = "";
+		switch(command.getPetition()){
+			case "monster":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.toString();
+						aux = 1;
+					}
+				}
+				break;
+			case "weak":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.getName() + System.lineSeparator() + "Debilidades:" + monster.printWeakness();
+						aux = 1;
+					}
+				}
+				break;
+			case "elements":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.getName() + System.lineSeparator() + "Elementos:" + monster.printElements();
+						aux = 1;
+					}
+				}
+				break;
+			case "ailments":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.getName() + System.lineSeparator() + "Estados:" + monster.printAilments();
+						aux = 1;
+					}
+				}
+				break;
+			case "specie":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.getName() + System.lineSeparator() + "Especie:" + monster.getSpecie();
+						aux = 1;
+					}
+				}
+				break;
+			case "weaksign":
+				for (Monster monster : list) {
+					if(command.getArgument().equals(monster.getName())){
+						response = monster.getName() + System.lineSeparator() + "Especie:" + monster.getSpecie();
+						aux = 1;
+					}
+				}
+				break;
+			default:
+				response = "Something went wrong";
+				aux = 1;
+				break;
 		}
 		
-		return "The monster does not exist";
-		
+		if(aux==1){
+			return response;
+		}else{
+			return "The monster does not exist";
+		}
 	}
 	
 	public static void printMonsters() {
 		System.out.println(System.getProperty("user.dir"));
 	}
-	
-	/*public static List<Monster> loadMonsterList() throws JsonSyntaxException, JsonIOException, FileNotFoundException{
-		
-		Gson gson = new Gson();
-		Monster[] monsters = gson.fromJson(new FileReader("monsters3u.json"), Monster[].class);
-		List<Monster> monsterList = Arrays.asList(monsters);
-		return monsterList;
-		
-	}*/
 
 }
