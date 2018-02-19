@@ -14,6 +14,7 @@ public class CommandHandler {
 			MonsterHandling mhHandler = new MonsterHandling();
 			response = mhHandler.commandHandler(command);
 			break;
+		
 
 		default:
 			response = "Not a valid command";

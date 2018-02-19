@@ -8,6 +8,10 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
+import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
+import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
+import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
+import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 
 import bot.trifulca.TrifulBot.Utils.BotUtils;
 import bot.trifulca.TrifulBot.Utils.MyEvents;
@@ -18,6 +22,10 @@ public class Controller
 {
 	
 	public static List<Monster> monsterList;
+	
+	public static AudioPlayerManager audioManager;
+	
+	public static AudioPlayer player;
 	
     public static void main( String[] args ) throws JsonSyntaxException, JsonIOException, FileNotFoundException
     {
@@ -47,6 +55,8 @@ public class Controller
         cli.login();
         
         loadMonsterList();
+        
+        //initializeAudioFunctionality();
 
      
     }
@@ -60,6 +70,12 @@ public class Controller
 		
 		
 	}
+    
+    public static void initializeAudioFunctionality(){
+    	audioManager = new DefaultAudioPlayerManager();
+    	AudioSourceManagers.registerRemoteSources(audioManager);
+    	player = audioManager.createPlayer();
+    }
     
     public static List<Monster> getList(){
     	return monsterList;
