@@ -18,7 +18,7 @@ Chat Response:
   Debilidades: Fuego  
   Signo de debilidad: Cojera  
   
-The only available monsters are from Monster Hunter 3 Ultimate. More monster will be available with future releases.
+The only available monsters are from Monster Hunter 3 Ultimate. More monsters will be available with future releases.
 
 ##### Command monster
 
