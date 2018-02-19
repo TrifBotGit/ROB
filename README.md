@@ -10,13 +10,13 @@ Possible petitions: monster, weak, elements, ailments, specie and weaksign.
 
 Example command: !MH monster Lagiacrus
 
-Chat Response:
-  Lagiacrus
-  Especie: Leviathan
-  Elementos: Trueno, Agua
-  Estados: Plaga de trueno, Plaga de agua
-  Debilidades: Fuego
-  Signo de debilidad: Cojera
+Chat Response:  
+  Lagiacrus  
+  Especie: Leviathan  
+  Elementos: Trueno, Agua  
+  Estados: Plaga de trueno, Plaga de agua  
+  Debilidades: Fuego  
+  Signo de debilidad: Cojera  
 
 ##### Command monster
 
