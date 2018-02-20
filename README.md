@@ -6,7 +6,7 @@ Simple discord bot for game related functions.
 
 Command prefix: !MH
 
-Possible petitions: monster, weak, elements, ailments, specie and weaksign.
+Possible petitions: monster, weak, elements, ailments, specie, weaksign and resources.
 
 Example command: !MH monster Lagiacrus
 
@@ -45,3 +45,7 @@ Returns the monster's specie.
 ##### Command weaksign
 
 Returns the monster's sign when is weak.
+
+##### Command resources
+
+Returns all the resources spots for zone in the given map. !MH resources Isla Desierta
