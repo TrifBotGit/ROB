@@ -1,30 +1,31 @@
 package bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Resource {
 	
-	public String type;
-	
-	public int quantity;
-	
-	public Resource(String type, int quantity){
-		this.type = type;
-		this.quantity = quantity;
+	@SerializedName("name")
+	@Expose
+	private String name;
+	@SerializedName("quantity")
+	@Expose
+	private Integer quantity;
+
+	public String getName() {
+	return name;
 	}
 
-	public String getType() {
-		return type;
+	public void setName(String name) {
+	this.name = name;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public Integer getQuantity() {
+	return quantity;
 	}
 
-	public int getQuantity() {
-		return quantity;
-	}
-
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+	public void setQuantity(Integer quantity) {
+	this.quantity = quantity;
 	}
 	
 	

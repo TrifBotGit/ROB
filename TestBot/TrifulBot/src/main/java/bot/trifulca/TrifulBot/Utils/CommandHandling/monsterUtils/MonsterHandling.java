@@ -17,7 +17,7 @@ public class MonsterHandling {
 		MHCommand mhPetition = new MHCommand(petition, arguments);
 		String response = "";
 		int aux = 0;
-		String[] existingCommands = {"monster", "weak", "elements", "ailments", "specie", "weaksign"};
+		String[] existingCommands = {"monster", "weak", "elements", "ailments", "specie", "weaksign", "resources"};
 		for (String string : existingCommands) {
 			if(mhPetition.getPetition().equals(string)){
 				response = buildMonsterResponse(mhPetition);
@@ -82,6 +82,14 @@ public class MonsterHandling {
 				for (Monster monster : list) {
 					if(command.getArgument().equals(monster.getName())){
 						response = monster.getName() + System.lineSeparator() + "Especie:" + monster.getSpecie();
+						aux = 1;
+					}
+				}
+				break;
+			case "resources":
+				for (Map map : Controller.game.getMaps()) {
+					if(command.getArgument().equals(map.getName())){
+						response = map.printMapResources();
 						aux = 1;
 					}
 				}

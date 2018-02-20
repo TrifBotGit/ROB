@@ -5,29 +5,29 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Zone {
+public class Game {
 	
 	@SerializedName("name")
 	@Expose
 	private String name;
-	@SerializedName("resources")
+	@SerializedName("maps")
 	@Expose
-	private List<Resource> resources = null;
-
+	private List<Map> maps = null;
+	
 	public String getName() {
 	return name;
 	}
-
+	
 	public void setName(String name) {
 	this.name = name;
 	}
-
-	public List<Resource> getResources() {
-	return resources;
+	
+	public List<Map> getMaps() {
+	return maps;
 	}
-
-	public void setResources(List<Resource> resources) {
-	this.resources = resources;
+	
+	public void setMaps(List<Map> maps) {
+	this.maps = maps;
 	}
-
+	
 }

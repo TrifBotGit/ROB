@@ -76,7 +76,7 @@
 	"Specie": "Leviathan",
 	"Element": ["Trueno", "Agua"],
 	"Ailments": ["Paralisis", "Plaga de agua"],
-	"Weakness": ["<:firemh:415159307345068052>"],
+	"Weakness": ["Fuego"],
 	"Weakness Sign": "Cojera"
 },
 {
@@ -156,7 +156,7 @@
 	"Specie": "Leviathan",
 	"Element": ["Fuego"],
 	"Ailments": ["Plaga de fuego"],
-	"Weakness": ["Agua(Con lava)", "Dragon(Sin lava"],
+	"Weakness": ["Agua(Con lava)", "Dragon(Sin lava)"],
 	"Weakness Sign": "Cojera"
 },
 {

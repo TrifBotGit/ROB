@@ -5,6 +5,8 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils.resources.IconsConst;
+
 public class Monster {
 
 	@SerializedName("Name")
@@ -77,7 +79,7 @@ public class Monster {
 	public String printElements() {
 		String result = "";
 		for (String string : element) {
-			result += " " + string;
+			result += " " + IconsConst.returnIcon(string);
 		}
 		return result;
 	}
@@ -85,7 +87,7 @@ public class Monster {
 	public String printAilments() {
 		String result = "";
 		for (String string : ailments) {
-			result += " " + string;
+			result += " " + IconsConst.returnIcon(string);
 		}
 		return result;
 	}
@@ -93,7 +95,7 @@ public class Monster {
 	public String printWeakness() {
 		String result = "";
 		for (String string : weakness) {
-			result += " " + string;
+			result += " " + IconsConst.returnIcon(string);
 		}
 		return result;
 	}

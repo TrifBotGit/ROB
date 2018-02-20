@@ -15,6 +15,7 @@ import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 
 import bot.trifulca.TrifulBot.Utils.BotUtils;
 import bot.trifulca.TrifulBot.Utils.MyEvents;
+import bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils.Game;
 import bot.trifulca.TrifulBot.Utils.CommandHandling.monsterUtils.Monster;
 import sx.blah.discord.api.IDiscordClient;
 
@@ -22,6 +23,8 @@ public class Controller
 {
 	
 	public static List<Monster> monsterList;
+	
+	public static Game game;
 	
 	public static AudioPlayerManager audioManager;
 	
@@ -55,6 +58,8 @@ public class Controller
         cli.login();
         
         loadMonsterList();
+        loadMapResources();
+        
         
         //initializeAudioFunctionality();
         
@@ -72,11 +77,19 @@ public class Controller
 		
 	}
     
+    public static void loadMapResources() throws JsonSyntaxException, JsonIOException, FileNotFoundException{
+    	game = null;
+    	Gson gson = new Gson();
+    	game = gson .fromJson(new FileReader("lrmaps.json"), Game.class);
+    }
+    
     public static void initializeAudioFunctionality(){
     	audioManager = new DefaultAudioPlayerManager();
     	AudioSourceManagers.registerRemoteSources(audioManager);
     	player = audioManager.createPlayer();
     }
+    
+    
     
     public static List<Monster> getList(){
     	return monsterList;

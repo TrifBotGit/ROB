@@ -1,5 +1,5 @@
-[{
-	"name": "Rango Bajo",
+{
+	"name": "Monster Hunter 3 Ultimate",
 	"maps": [
 		{
 			"name": "Isla Desierta",
@@ -701,6 +701,383 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Volcan",
+			"zones": [
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Cascara",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						},
+						{
+							"name": "Cascara",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						},
+						{
+							"name": "Cascara",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						}
+					]
+				},
+				{
+					"name": "Zona 10",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						},
+						{
+							"name": "Zona Secreta",
+							"quantity": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cumbres Borrascosas",
+			"zones": [
+				{
+					"name": "Zona 1",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 2
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 2
+						},
+						{
+							"name": "Bayas",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 2",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 2
+						},
+						{
+							"name": "Boñiga",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 3",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 2
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Huesos",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 5
+						},
+						{
+							"name": "Zona Secreta",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 4",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 3
+						},
+						{
+							"name": "Bayas",
+							"quantity": 3
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 5",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 1
+						},
+						{
+							"name": "Insectos",
+							"quantity": 3
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Miel",
+							"quantity": 2
+						}
+					]
+				},
+				{
+					"name": "Zona 6",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 3
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 7",
+					"resources": [
+						{
+							"name": "Plantas",
+							"quantity": 3
+						},
+						{
+							"name": "Insectos",
+							"quantity": 1
+						},
+						{
+							"name": "Setas",
+							"quantity": 1
+						},
+						{
+							"name": "Bayas",
+							"quantity": 2
+						},
+						{
+							"name": "Pesca",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 8",
+					"resources": [
+						{
+							"name": "Mineral",
+							"quantity": 3
+						},
+						{
+							"name": "Huevo",
+							"quantity": 1
+						},
+						{
+							"name": "Desconocido",
+							"quantity": 2
+						},
+						{
+							"name": "Boñiga",
+							"quantity": 1
+						}
+					]
+				},
+				{
+					"name": "Zona 9",
+					"resources": [
+						{
+							"name": "Insectos",
+							"quantity": 2
+						},
+						{
+							"name": "Setas",
+							"quantity": 3
+						},
+						{
+							"name": "Miel",
+							"quantity": 1
+						}
+					]
+				}
+			]
 		}
 	]
-}]
+}
